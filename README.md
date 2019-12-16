@@ -2,10 +2,14 @@
 # AgentRAT ADA-stakepool
 
 ## Overview
-We are now in ITN testnet phase. To support the Cardano network, I have setup a testnet ITN node in Melbourne, Australia on my own home network. 
+We are now in ITN testnet phase. This is a historical moment! 
+
+Please delegate your test ADA to my stakepool.
+
+Stakepool Id is 5d099136e633d00f53be23c36300f2bfa465fd83f53474dea091042b232b393c
 
 ## Current setup
-The node is currently hosted on docker on my local home internet via Optus network
+To support the Cardano network, I have setup a testnet ITN node in Melbourne, Australia. The node is currently hosted on docker on my local home internet via Optus network. 
 
 ## Moving forward
 ### Decentralisation
