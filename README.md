@@ -18,5 +18,5 @@ Optus NBN connection
 For scripts to help the Cardano community please refer to github files
 
 Currently available:
-* start_node.sh - Jormungandr startup wrapper script that removes trusted peers that are not reachable (port closed)
+* start_node.sh - Jormungandr startup wrapper script that removes trusted peers that are not reachable (port closed). Originally intended to use nc for port tested by later inspired by ilap's guide to use tcpping - see https://gist.github.com/ilap/54027fe9af0513c2701dc556221198b2
 * config/node-config.json - Sample json node-config compatible with start_node.sh
