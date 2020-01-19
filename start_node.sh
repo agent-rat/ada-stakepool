@@ -9,7 +9,6 @@
 # * node-config can be in yaml or json format. This script only support json format
 
 # Init vars
-VALID_JSON_PEER=''
 PATH_JORM='bin/jormungandr'
 PATH_TCPPING='bin/tcpping'
 PATH_NODE_SECRET='config/node-secret.yaml' # File containing node secret
@@ -26,6 +25,7 @@ JSON_PEER=`cat ${PATH_NODE_CONFIG} | jq -c -r '.p2p.trusted_peers[]' `
 
 # Loop through line formatted json above and perform TCP ping
 echo "Checking ${PATH_NODE_CONFIG} for trusted peers..."
+VALID_JSON_PEER=''
 for JPEER in $JSON_PEER; do
   # Extract IP from line
   IP=`echo $JPEER | jq '.address' | tr -d \" | cut -d/ -f3`
