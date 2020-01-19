@@ -19,3 +19,4 @@ For scripts to help the Cardano community please refer to github files
 
 Currently available:
 * start_node.sh - Jormungandr startup wrapper script that removes trusted peers that are not reachable (port closed)
+* config/node-config.json - Sample json node-config compatible with start_node.sh
