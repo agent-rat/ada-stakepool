@@ -1,4 +1,6 @@
+![ARAT Banner](banner.png)
 # AgentRAT ADA-stakepool
+Staking? Look no further. Try out the ARAT stakepool with proven track record of minting blocks and rewards, and never look back!
 
 ## Pool parameters
 Fixed : 300
@@ -6,13 +8,7 @@ Variable: 2%
 Limit: None
 Stakepool Id: 5d099136e633d00f53be23c36300f2bfa465fd83f53474dea091042b232b393c
 
-## Current setup
-To support the Cardano network, I have setup a testnet ITN node in Melbourne, Australia. The node is hosted on a server
 
-Intel i5 2.6Ghz x 4 core
-8Gb RAM 
-128 SSD
-Optus NBN connection
 
 ## Scripts 
 For scripts to help the Cardano community please refer to github files. If you like my scripts, just say thanks on Telegram. Nick is [ARAT] AgentRat. Suggestions are also welcomed
